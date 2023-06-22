@@ -4,7 +4,7 @@ import {Component} from 'react'
 
 class LatestMatch extends Component {
   render() {
-    const {LatestMatch} = this.props
+    const {latestMatch} = this.props
     const {
       competingTeam,
       competingTeamLogo,
@@ -15,7 +15,7 @@ class LatestMatch extends Component {
       umpires,
       venue,
       results,
-    } = LatestMatch
+    } = latestMatch
 
     return (
       <div className="latest-match-card-container">
